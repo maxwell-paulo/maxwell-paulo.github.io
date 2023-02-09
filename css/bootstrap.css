@@ -4483,6 +4483,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
+
+
+@media (max-width: 767px) {
+.list-inline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+}
+
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
